@@ -1,9 +1,9 @@
-# Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition
+# Keyestudio Raspberry Pi Pico Ultimate Learning Kit 
 
 ![Img](./media/img-20231115163720.jpg)
 
 
-## 1. Introduction:
+# 1. Introduction:
 
 Do you want to learn about programming?
 
@@ -15,7 +15,7 @@ Tutorials are provided, which contain detailed wiring diagrams, component knowle
 
 In addition, you can master the use of electronics, physics, science and programming by building up experiment with this kit.
 
-## 2. Kit List:
+# 2. Kit List:
 
 | ![img](media/wps45.png)                    | ![img](media/wps46.jpg)      | ![img](media/wps47.jpg)   | ![img](media/wps48.jpg)           | ![img](media/wps49.jpg)             |
 | ------------------------------------------ | ---------------------------- | ------------------------- | --------------------------------- | ----------------------------------- |
@@ -40,7 +40,7 @@ In addition, you can master the use of electronics, physics, science and program
 | Resistance Card*1                          | Jumper Wire*30               | M-F Dupont Wire40         | F-F Dupont Wire*40                | 10CM M-F Dupont Wires*10            |
 
 
-## 3. Tutorials 
+# 3. Tutorials 
 
 * [1.Raspberry_Pi_Pico](1.Raspberry_Pi_Pico.md)
 
