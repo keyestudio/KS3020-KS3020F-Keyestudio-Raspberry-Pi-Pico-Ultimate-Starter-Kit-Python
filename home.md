@@ -3,7 +3,7 @@
 ![Img](./media/img-20231115163720.jpg)
 
 
-#  Introduction:
+##  Introduction:
 
 Do you want to learn about programming?
 
@@ -15,7 +15,7 @@ Tutorials are provided, which contain detailed wiring diagrams, component knowle
 
 In addition, you can master the use of electronics, physics, science and programming by building up experiment with this kit.
 
-#  Kit List:
+##  Kit List:
 
 | ![img](media/wps45.png)                    | ![img](media/wps46.jpg)      | ![img](media/wps47.jpg)   | ![img](media/wps48.jpg)           | ![img](media/wps49.jpg)             |
 | ------------------------------------------ | ---------------------------- | ------------------------- | --------------------------------- | ----------------------------------- |
@@ -40,19 +40,100 @@ In addition, you can master the use of electronics, physics, science and program
 | Resistance Card*1                          | Jumper Wire*30               | M-F Dupont Wire40         | F-F Dupont Wire*40                | 10CM M-F Dupont Wires*10            |
 
 
-#  Tutorials 
+## Raspberry Pi Pico Board：
 
-* [1.Raspberry_Pi_Pico](1.Raspberry_Pi_Pico.md)
+ **1. Introduction：**
 
-* [2.Arduino_C_Tutorial(Windows)](2.Arduino_C_Tutorial(Windows)/Arduino_C_Tutorial(Windows).md)
+Raspberry Pi Pico is a low-cost, high-performance microcontroller board with flexible digital interfaces. It integrates the RP2040
+microcontroller chip designed by Raspberry Pi, with dual-core Arm Cortex M0+ processor running up to 133 MHz, embedded 264KB of SRAM and 2MB of on-board Flash memory, as well as 26 multi-function GPIO pins. For software development, either Raspberry Pi's C/C++ SDK, or the MicroPython is available. In this tutorial, we will use MicroPython.
 
-* [3.Python_Tutorial(Windows)](3.Python_Tutorial(Windows)/Python_Tutorial(Windows).md)
+ **2. Features：**
 
-* [4.Python_Tutorial(Raspberry-Pi)](4.Python_Tutorial(Raspberry-Pi)/Python_Tutorial(Raspberry-Pi).md)
+  - > RP2040 microcontroller chip designed by Raspberry Pi
 
-* [5.Libraries_and_Firmware](5.Libraries_Firmware_and_APP.zip)
+  - > Dual-core ARM Cortex M0+ processor, flexible clock running up to
+    > 133 MHz
 
-* [6.Codes](6.Codes.zip)
+  - > 264kB of SRAM, and 2MB of on-board Flash memory
+
+  - > Castellated module allows soldering direct to carrier boards
+
+  - > USB 1.1 Host and device support
+
+  - > Low-power sleep and dormant modes
+
+  - > Drag & drop programming using mass storage over USB
+
+  - > 26 multi-function GPIO pins
+
+  - > 2×SPI, 2×I2C, 2×UART, 3×12-bit ADC, 16×controllable PWM channels
+
+  - > Accurate on-chip clock and timer
+
+  - > Temperature sensor
+
+  - > Accelerated floating point libraries on-chip
+
+  - > 8×Programmable IO (PIO) state machines for custom peripheral
+    > support
+
+<!-- end list -->
+
+ **3. Parameters：**
+
+- Microcontroller: RP2040 microcontroller chip
+
+- CPU: Dual-core Arm Cortex-M0+ @ 133MHz
+
+- USB-to-serial chip: Built-in USB1.1 PHY host and device support, drag-and-drop download program through USB identification as mass storage
+
+- Working voltage: 3.0V-3.6V
+
+- Working current: average 80mA
+
+- Supply current: 500mA
+
+- External power supply: DC power supply is 6-12V (recommended 9V), USB power supply is 5V.
+
+- Flash Memory: Built-in 2MB
+
+- SRAM: Built-in 264KB
+
+- Integrated crystal oscillator: 12MHz
+
+**Dimension Diagram：**
+
+![](/media/image-20230515144606351.png)
+
+**Schematic Diagram：**
+
+![](/media/image-20230515144615101.png)
+
+ **4. Pin out**
+
+![](/media/image-20230515144624089.png)
+
+![](/media/image-20230515144633368.png)
+
+| PIN            | FUNCTION                                                     |
+| -------------- | ------------------------------------------------------------ |
+| GND            | Ground pin                                                   |
+| Power          | VBUS(microUSB voltage), VSYS(2-5VDC input voltage), 3V3(3.3V output voltage) 3V3_EN(Enables Pico) |
+| System Control | run (enable or disable the RP2040 microcontroller or reset)  |
+| ADC            | Raspberry Pi Pico has a total of 5 ADCs with a resolution of 12 bits, namely ADC0 (GP26), ADC1 (GP27), ADC2 (GP28), ADC3 (GP29), ADC4. Among them, ADC3 (GP29) is used to measure VSYS on the Pico board; ADC4 is directly connected to the built-in temperature sensor of RP2040. ADC_VREF can be connected to an external accurate voltmeter as ADC reference. The ADC_GND pin serves as the ground reference. |
+| PWM            | Raspberry Pi Pico has 16 PWM channels，each of channel can control frequency and duty cycle.GPIO pin is switched to PWM |
+| UART           | Two UART： UART0,UART1                                       |
+| I2C            | Two types of I2C： I2C0 I2C1                                 |
+| SPI            | Two types of SPI：SPI0,SPI1                                  |
+| Debugging      | used in debugging code                                       |
+
+
+Related information：[<span class="underline">https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</span>](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
+
+##  Download
+
+* [Libraries_and_Firmware](Libraries_Firmware_and_APP.zip)
+* [Codes](Codes.zip)
 
 
 
