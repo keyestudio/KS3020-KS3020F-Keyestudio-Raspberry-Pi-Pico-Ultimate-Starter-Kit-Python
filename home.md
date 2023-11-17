@@ -40,7 +40,7 @@ In addition, you can master the use of electronics, physics, science and program
 | Resistance Card*1                          | Jumper Wire*30               | M-F Dupont Wire40         | F-F Dupont Wire*40                | 10CM M-F Dupont Wires*10            |
 
 
-## Raspberry Pi Pico Board：
+##  Raspberry Pi Pico Board：
 
  **1. Introduction：**
 
@@ -133,14 +133,6 @@ Related information：[<span class="underline">https://datasheets.raspberrypi.co
 ##  Download
 
 * [Libraries_and_Firmware](Libraries_Firmware_and_APP.zip)
+  
 * [Codes](Codes.zip)
-
-
-
-
-
-
-
-
-
 
