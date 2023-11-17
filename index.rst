@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 5
-   :caption: KS3020 (KS3020F)Keyestudio Raspberry Pi Pico Ultimate Starter Kit Python
+   :caption: KS3020 Keyestudio Raspberry Pi Pico Ultimate Starter Kit
 
    1. Preparation/1. Introduction and List of the Kit.md
    1. Preparation/2. Raspberry Pi Pico.md

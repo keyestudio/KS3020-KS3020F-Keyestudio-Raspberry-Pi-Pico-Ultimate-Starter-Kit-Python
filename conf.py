@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'KS3020 (KS3020F)Keyestudio Raspberry Pi Pico Ultimate Starter Kit Python'
+project = ' Raspberry Pi Pico Ultimate Starter Kit'
 copyright = 'keyestudio , WiKi'
 author = 'keyestudio WiKi'
 
